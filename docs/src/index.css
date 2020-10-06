@@ -1,0 +1,39 @@
+html, body, center, .flex {
+  height:100%;
+}
+.flex {
+  display: flex;
+  flex-flow: column;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center
+}
+.social-link-btn {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 300px;
+  margin-bottom: 18px;
+}
+.social-img {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 8px;
+}
+.social-text {
+  margin-left: 8px;
+}
+.fill-page {
+  flex: 1 1 auto;
+}
+.fit-content {
+  flex: 0 1 auto;
+}
+footer {
+  flex: 0 1 22px;
+}
+header {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
