@@ -25,6 +25,7 @@ body {
 }
 .fill-page {
   flex: 1 1 auto;
+  min-height: 30px;
 }
 .fit-content {
   flex: 0 1 auto;
