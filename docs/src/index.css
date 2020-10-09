@@ -33,8 +33,3 @@ body {
 footer {
   flex: 0 1 22px;
 }
-header span {
-  visibility: hidden;
-  width: 0px;
-  height: 0px;
-}
