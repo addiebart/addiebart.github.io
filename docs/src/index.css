@@ -7,7 +7,8 @@ html, body, center, .flex {
 }
 body {
   background-color: rgba(0, 0, 0, 0.4);
-  text-align: center
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
 }
 .social-link-btn {
   background-color: rgba(0, 0, 0, 0.4);
@@ -32,4 +33,12 @@ body {
 }
 footer {
   flex: 0 1 22px;
+}
+noscript h2{
+  max-width: 400px;
+  min-width: 300px;
+  width: 400px;
+  color: #b22222;
+  font-size: 1.2em;
+  margin: auto;
 }
