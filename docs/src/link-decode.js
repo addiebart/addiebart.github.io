@@ -2,7 +2,6 @@
 window.addEventListener('DOMContentLoaded',function(){
   var a = Array.from(document.querySelectorAll('a.link-decode-edbart'));
   for (let i = 0; i < a.length; i++) {
-    console.log('for',a,a[i]);
     a[i].href = unescape((function() {
       switch(new URLSearchParams('?'+a[i].href.split('?')[1]).get('href')) {
         case 'stuweb':
