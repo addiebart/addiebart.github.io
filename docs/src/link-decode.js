@@ -43,8 +43,8 @@ window.addEventListener('DOMContentLoaded',function(){
         case 'smashtwitter':
         case 'onlinetwitter':
         case 'twitter2':
-          a[i].querySelector('.social-text').textContent = unescape('@%'+(Math.pow(8,2)-2)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((8*9)+3)+'%'+((8*9)+3)+(Math.pow(8,2)-2)+(25*3)+' on Twitter');
-          return 'https%3A%2F%2Fwww.twitter.com%2F%'+(Math.pow(8,2)-2)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((8*9)+3)+'%'+((8*9)+3)+(Math.pow(8,2)-2)+(25*3);
+          a[i].querySelector('.social-text').textContent = unescape('@%'+((15*3)-3)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((10*5)+3)+'%'+((10*5)+3)+'%'+((15*3)-3)+'%'+((12*5)-5)+' on Twitter');
+          return 'https%3A%2F%2Fwww.twitter.com%2F%'+((15*3)-3)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((10*5)+3)+'%'+((10*5)+3)+'%'+((15*3)-3)+'%'+((12*5)-5);
           break;
       }
     })());
