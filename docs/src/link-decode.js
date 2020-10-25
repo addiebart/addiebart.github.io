@@ -4,7 +4,6 @@ window.addEventListener('DOMContentLoaded',function(){
   for (let i = 0; i < a.length; i++) {
     console.log('for',a,a[i]);
     a[i].href = unescape((function() {
-      console.log('unescape');
       switch(new URLSearchParams('?'+a[i].href.split('?')[1]).get('href')) {
         case 'stuweb':
           return 'mailto%3A%'+(68/2)+'%'+(Math.pow(6,2))+'%'+((15*2)+1)+'%'+(((3*4)+1)*5)+'%'+(Math.pow(8,2)-2)+'%'+(((Math.pow(8,2))/2)-1)+'%'+((8*5)-1)+'%2b%73%74%75%77%65%62%40%73%74%75%64%65%6e%74%73%2e%6f%6c%61%74%68%65%73%63%68%6f%6f%6c%73%2e%63%6f%6d';
@@ -15,7 +14,6 @@ window.addEventListener('DOMContentLoaded',function(){
         case 'ig':
         case 'insta':
         case 'instagram':
-          console.log('ig');
             a[i].querySelector('.social-text').textContent = unescape('@%'+((15*4)+5)+'%'+(Math.pow(8,2))+'%'+(Math.pow(8,2))+'%'+(23*3)+'%'+((15*4)+5)+'%'+(Math.pow(8,2)-2)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((15*4)+5)+'%'+(1.5*4)+'c%'+(1.5*4)+'c%'+(23*3)+' on Instagram');
           return 'https%3A%2F%2Fwww.instagram.com%2F%'+((15*4)+5)+'%'+(Math.pow(8,2))+'%'+(Math.pow(8,2))+'%'+(23*3)+'%'+((15*4)+5)+'%'+(Math.pow(8,2)-2)+'%'+((3*20)+1)+'%'+(9*8)+'%'+((25*3)-1)+'%'+((15*4)+5)+'%'+(1.5*4)+'c%'+(1.5*4)+'c%'+(23*3);
           break;
