@@ -42,3 +42,14 @@ noscript h2{
   font-size: 1.2em;
   margin: auto;
 }
+a.link-hide:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+a.link-hide:any-link:hover {
+  text-decoration: underline;
+}
+a.link-hide:any-link:active {
+  color: purple;
+  text-decoration: underline;
+}
