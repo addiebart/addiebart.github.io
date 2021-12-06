@@ -111,18 +111,18 @@ h1 a:hover {
 .button p {
     margin: 0;
 }
-#btn1:hover {
+#btn1:hover, #btn1:focus-visible {
     background-color: #D62900;
 }
-#btn2:hover {
+#btn2:hover, #btn2:focus-visible {
     background-color: #FF9B55;
 }
-#btn3:hover {
+#btn3:hover, #btn3:focus-visible {
     background-color: #FFF;
 }
-#btn4:hover {
+#btn4:hover, #btn4:focus-visible {
     background-color: #D461A6;
 }
-#btn5:hover {
+#btn5:hover, #btn5:focus-visible {
     background-color: #A50062;
 }
