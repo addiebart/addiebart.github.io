@@ -58,8 +58,6 @@ body {
     display: table;
     margin: auto;
     margin-bottom: 20px;
-}
-.button:link {
     color: currentColor;
     text-decoration: none;
 }
