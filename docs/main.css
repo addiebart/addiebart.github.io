@@ -34,6 +34,7 @@ body {
 #flex-column {
     display: flex;
     flex-flow: column nowrap;
+    position: relative;
 }
 * {
     box-sizing: border-box;
@@ -113,4 +114,11 @@ h1 a:hover {
 }
 #btn5:hover {
     background-color: #A50062;
+}
+.temp-campaign{
+    background:#444;
+}
+.temp-campaign h1 a{
+    text-decoration: underline;
+    color: red;
 }
