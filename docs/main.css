@@ -1,4 +1,5 @@
-/*! intended for https://addie.ml/, copyright (c) 2021 addie.ml */
+/*! intended for https://addieb.art/, copyright (c) 2021-2023 addieb.art */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Ubuntu+Mono&display=swap');
 :root {
     --trans: linear-gradient(
         45deg,
@@ -23,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background-image: var(--trans);
+    /*background-image: var(--trans);*/
+    background-color: #444;
 }
 @media only screen and (prefers-contrast: less) {
     body {
@@ -76,7 +78,7 @@ body {
     width: 55px;
 }
 .left img {
-    height: 80%;
+    height: 32px;
     width: auto;
     margin-left: 8px;
 }
@@ -121,4 +123,19 @@ h1 a:hover {
 .temp-campaign h1 a{
     text-decoration: underline;
     color: red;
+}
+#ae {
+    font-family: "Rock Salt", sans-serif;
+    font-size: .85em;
+    margin-left: 4px;
+    color: #4d2657;
+    white-space: pre;
+}
+#body-p {
+    font-family: "Ubuntu Mono", Tacoma, sans-serif;
+    font-size: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 450px;
 }
