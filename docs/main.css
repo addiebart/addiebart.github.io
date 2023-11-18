@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
     /*background-image: var(--trans);*/
-    background-color: #444;
+    background-color: #666;
 }
 @media only screen and (prefers-contrast: more) {
     body {
