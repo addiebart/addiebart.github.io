@@ -27,7 +27,7 @@ body {
     /*background-image: var(--trans);*/
     background-color: #444;
 }
-@media only screen and (prefers-contrast: less) {
+@media only screen and (prefers-contrast: more) {
     body {
         background-image: none;
         background-color: white;
@@ -102,20 +102,8 @@ h1 a:hover {
 .button p {
     margin: 0;
 }
-#btn1:hover {
-    background-color: #D62900;
-}
-#btn2:hover {
-    background-color: #FF9B55;
-}
-#btn3:hover {
-    background-color: #FFF;
-}
-#btn4:hover {
-    background-color: #D461A6;
-}
-#btn5:hover {
-    background-color: #A50062;
+.button:hover {
+    background-color: #DDD;
 }
 .temp-campaign{
     background:#444;
