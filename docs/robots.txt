@@ -1,0 +1,23 @@
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver-web.archive.org 
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: AdldxBot
+Disallow: /
+
+User-agent: BingPreview
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Disallow: /

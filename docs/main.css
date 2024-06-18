@@ -1,0 +1,129 @@
+/*! intended for https://addieb.art/, copyright (c) 2021-2023 addieb.art */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Ubuntu+Mono&display=swap');
+:root {
+    --trans: linear-gradient(
+        45deg,
+      #5bcefa 0% 20%,
+      #f5a9b8 20% 40%,
+      #fff 40% 60%,
+      #f5a9b8 60% 80%,
+      #5bcefa 80% 100%
+    );
+}
+html, body, #flex-row, #flex-column {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    /*background-image: var(--trans);*/
+    background-color: #666;
+}
+@media only screen and (prefers-contrast: more) {
+    body {
+        background-image: none;
+        background-color: white;
+    }
+}
+#flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+}
+.i {
+    font-style: italic;
+}
+#buttons {
+    margin-top: 40px;
+}
+.button {
+    background-color: gray;
+    width: 300px;
+    max-width: 80vw;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #444;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    position: relative;
+    display: table;
+    margin: auto;
+    margin-bottom: 20px;
+    color: currentColor;
+    text-decoration: none;
+}
+.button:active {
+    transform: scale(0.99);
+}
+.button > * {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+}
+.left {
+    width: fit-content;
+    text-align: left;
+    width: 55px;
+}
+.left img {
+    height: 32px;
+    width: auto;
+    margin-left: 8px;
+}
+.rounded {
+    border-radius: 8px;
+}
+h1 a {
+    color: currentColor;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: mediumspringgreen;
+    font-style: italic;
+}
+.pixel {
+    image-rendering: pixelated;
+}
+.subtext {
+    font-size: 12px;
+}
+.button p {
+    margin: 0;
+}
+.button:hover {
+    background-color: #DDD;
+}
+.temp-campaign{
+    background:#444;
+}
+.temp-campaign h1 a{
+    text-decoration: underline;
+    color: red;
+}
+#ae {
+    font-family: "Rock Salt", sans-serif;
+    font-size: .85em;
+    margin-left: 4px;
+    color: #4d2657;
+    white-space: pre;
+}
+#body-p {
+    font-family: "Ubuntu Mono", Tacoma, sans-serif;
+    font-size: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 450px;
+}
