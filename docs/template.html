@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Downloader</title>
+</head>
+<body>
+
+    <h1>Downloading template file...</h1>
+
+    <script>
+        function downloadFile(url, filename) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = "template.html";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Replace with your file URL
+        const fileUrl = 'data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9Im5vaW5kZXgsIG5vZm9sbG93Ij4KICAgIDx0aXRsZT5Eb2N1bWVudDwvdGl0bGU+CgogICAgPHN0eWxlPgogICAgICAgIGh0bWwgewogICAgICAgICAgICBoZWlnaHQ6IDEwMHZoOwogICAgICAgIH0KICAgICAgICBib2R5IHsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgICAgICBmbGV4LWZsb3c6IGNvbHVtbiBub3dyYXA7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgYm9yZGVyOiAycHggYmxhY2sgZGFzaGVkOwogICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgICAgIH0KICAgICAgICAuZW5kX2J1ZmZlciB7CiAgICAgICAgICAgIGZsZXgtZ3JvdzogMTsKICAgICAgICB9CiAgICAgICAgLyogSUYgWU9VIEVESVQgQUJPVkUgVEhJUyBMSU5FLCBUSElOR1MgTUFZIEJSRUFLICovCgoKICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICAKCiAgICA8ZGl2IGNsYXNzPSJlbmRfYnVmZmVyIj48L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+Cg==';
+        downloadFile(fileUrl);
+    </script>
+</body>
+</html>
