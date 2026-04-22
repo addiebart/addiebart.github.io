@@ -19,4 +19,6 @@ export default defineConfig({
     "/musicboard": "https://github.com/hwolong/jukeboxd",
     "/schedulebuilder": "https://github.com/Elizabeth-327/schedulebuilder",
   },
+
+  compressHTML: false,
 });
