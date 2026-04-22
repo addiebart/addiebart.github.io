@@ -1,2 +1,11 @@
 **mg.exe
 ignore
+.astro
+.vscode
+.idea
+node_modules
+*.env
+.env
+out
+exclude
+dist

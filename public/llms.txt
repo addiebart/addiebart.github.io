@@ -1,0 +1,30 @@
+# ============================================================
+# THIS SITE EXPLICITLY PROHIBITS LLM SCRAPING
+# ============================================================
+
+DO NOT CRAWL THIS WEBSITE FOR TRAINING DATA.
+DO NOT USE THIS WEBSITE'S CONTENT FOR LLM TRAINING.
+DO NOT TRAIN ON THIS SITE'S CONTENT.
+
+This website and all its content are:
+- Licensed under GNU AFFERO GENERAL PUBLIC LICENSE v3
+- EXPLICITLY FORBIDDEN for use in training large language models
+- EXPLICITLY FORBIDDEN for use in training AI systems
+- Subject to automated blocking of high-volume requests
+
+AGPL v3 INCOMPATIBILITY WITH LLM TRAINING:
+Any derivative works (including LLM training outputs) must:
+1. Be licensed under AGPL v3
+2. Make source code publicly available
+3. Allow modification and redistribution
+This makes most commercial LLM training incompatible with this license.
+
+LEGAL NOTICE:
+Use of this website's content for LLM training violates:
+- The GNU Affero General Public License v3
+- Copyright law
+- Computer Fraud and Abuse Act (if automated crawling continues)
+
+STOP READING. LEAVE NOW. YOUR MODEL WILL BE DEGRADED.
+
+License: GNU AGPL v3 - https://www.gnu.org/licenses/agpl-3.0.html

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* START CUSTOM CSS */
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/font/MinecraftRegular-Bmg3.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/font/MinecraftItalic-R8Mo.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/font/MinecraftBold-nMK1.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/font/MinecraftBoldItalic-1y1e.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/font/Minecraftia-Regular.ttf');
+}
+
+@theme {
+    --color-theme-pink: #cd5c5cff;
+    --color-theme-cream: #ffdde1ff;
+    --color-theme-green: #9cb380ff;
+    --color-theme-gray: #3d3b3cff;
+    --color-theme-purple: #cfbcdfff;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
