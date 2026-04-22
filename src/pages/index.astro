@@ -11,14 +11,20 @@ import "../styles/global.css"
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 		<meta name="generator" content={Astro.generator} />
 		<meta name="robots" content="noindex, nofollow">
 		<noscript><style> .jsonly { display: none } </style></noscript>
 		<title>Addie Bart - Home</title>
 	</head>
 
-    <body class="bg-theme-pink box-border p-4">
+    <body class="bg-theme-pink box-border p-4 ">
+
+		<p class="bg-theme-green box-border px-2 max-w-4/5 w-fit mx-auto font-['Minecraft']">
+			This new website is still under construction.
+			Expect more to show up soon!
+			Sorry mobile users.
+		</p>
         
 		<div class="flex flex-row max-w-4/5 w-280 p-4 h-fit border-4 border-dashed my-5 box-border gap-x-4 relative self-center-safe">
 
@@ -30,9 +36,9 @@ import "../styles/global.css"
 					<li>
 						<a href="/">Back to landing</a>
 					</li>
-					<!-- <li>
-						<a href="metainfo.html">Information about this site</a>
-					</li> -->
+					<li>
+						<a href="/old ">Old Website</a>
+					</li>
 					<li>
 						That's the end of the links.
 						<div class="text-3xl">:(</div>
@@ -101,9 +107,21 @@ import "../styles/global.css"
 
 		<div class="grow"></div>
 
-		<p class="text-md p-2 bg-theme-purple border w-fit font-['Minecraft']">
-			This site was made with &lt;3 using human hands.
-		</p>
+		<div class="flex">
+			<p class="text-md p-2 bg-theme-purple border w-fit font-['Minecraft'] h-fit self-end">
+				This site was made with &lt;3 using human hands.
+			</p>
+			<div class="grow"></div>
+			<p class="p-1 bg-theme-purple border w-fit self-end">
+				<map name="w95widget">
+					<area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="0,0,308,22" alt="no ai webring" title="no ai webring">
+					<area href="https://baccyflap.com/noai/?prv&s=adb" target="_top" shape="rect" coords="56,36,130,58" alt="previous" title="previous">
+					<area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="137,36,211,58" alt="random" title="random">
+					<area href="https://baccyflap.com/noai/?nxt&s=adb" target="_top" shape="rect" coords="218,36,292,58" alt="next" title="next">
+				</map>
+				<img usemap="#w95widget" src="https://baccyflap.com/noai/w95widget.gif" alt="a gray Windows 95 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random... and Next">
+			</p>
+		</div>
 
     </body>
 

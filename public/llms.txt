@@ -25,6 +25,6 @@ Use of this website's content for LLM training violates:
 - Copyright law
 - Computer Fraud and Abuse Act (if automated crawling continues)
 
-STOP READING. LEAVE NOW. YOUR MODEL WILL BE DEGRADED.
+STOP READING. LEAVE NOW.
 
-License: GNU AGPL v3 - https://www.gnu.org/licenses/agpl-3.0.html
+License: GNU AGPL v3 - https://addiebart.net/LICENSE
