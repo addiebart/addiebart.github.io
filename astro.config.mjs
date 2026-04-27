@@ -18,6 +18,8 @@ export default defineConfig({
     "/jukeboxd": "https://github.com/hwolong/jukeboxd",
     "/musicboard": "https://github.com/hwolong/jukeboxd",
     "/schedulebuilder": "https://github.com/Elizabeth-327/schedulebuilder",
+    "/taskplanner": "https://github.com/jannadungao/Team-7",
+    "/marco": "https://github.com/jannadungao/Team-7",
   },
 
   compressHTML: false,
