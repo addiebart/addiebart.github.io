@@ -20,6 +20,7 @@ export default defineConfig({
     "/schedulebuilder": "https://github.com/Elizabeth-327/schedulebuilder",
     "/taskplanner": "https://github.com/jannadungao/Team-7",
     "/marco": "https://github.com/jannadungao/Team-7",
+    "/hackku26": "/nonweb/fullstackreact.pdf"
   },
 
   compressHTML: false,
