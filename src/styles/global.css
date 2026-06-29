@@ -51,8 +51,8 @@
 @font-face {
   font-family: 'Carlito';
   src: url('/font/Carlito-Italic.ttf');
-  font-weight: bold;
-  font-style: normal;
+  font-weight: normal;
+  font-style: italic;
 }
 
 @theme {
