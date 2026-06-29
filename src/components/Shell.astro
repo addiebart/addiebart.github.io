@@ -1,0 +1,97 @@
+<style>
+  nav a:focus,
+  nav a:hover {
+    color: var(--color-theme-cream);
+  }
+</style>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- This site uses Tailwind. Ignore the linked stylesheet. 
+		To follow, look at the classes and reference https://tailwindcss.com/ -->
+    <noscript
+      ><style>
+        .jsonly {
+          display: none;
+        }
+      </style></noscript
+    >
+    <title>Addie's Atlas - Home</title>
+  </head>
+
+  <body class="bg-theme-pink box-border p-4">
+    <p
+      class="bg-theme-green box-border px-2 max-w-4/5 w-fit mx-auto font-['Minecraft']"
+    >
+      This new website is still under construction. Expect more to show up soon!
+      Sorry mobile users.
+    </p>
+
+    <div
+      class="flex flex-row max-w-[max(min(800px,100%),80%)] w-7xl p-4 h-fit border-4 border-dashed my-5 box-border gap-x-4 relative self-center-safe"
+    >
+      <img
+        src="/img/Scissors_icon_black.svg"
+        alt="A scissors icon, purely for aesthetics."
+        class="w-10 absolute right-0 top-8 translate-x-1/2 rotate-90 jsonly"
+      />
+
+      <nav
+        class="flex flex-col max-w-2/5 min-w-40 w-1/5 border box-border px-2 py-4 bg-theme-purple text-md font-['Minecraft'] text-center gap-y-4"
+      >
+        <h2 class="text-2xl font-semibold">Links</h2>
+        <ul class="flex flex-col gap-y-2">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/old">Old Website</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/resume">Resume</a>
+          </li>
+          <li>
+            <a href="https://github.com/addiebart/addiebart.github.io">Sources</a>
+          </li>
+          <li>
+            <a href="https://github.com/addiebart">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/addison-bartelli">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main
+        class="grow bg-[url(/img/notebooktile.png)] p-8 font-['Minecraft'] gap-y-4 flex flex-col box-content relative"
+      >
+        
+        <slot></slot>
+
+        <img
+          src="/img/markerstar.png"
+          alt="A star, hand-drawn with marker"
+          class="jsonly absolute right-2 top-3 w-20 rotate-9"
+        />
+      </main>
+    </div>
+
+    <div class="grow"></div>
+
+    <div class="flex">
+      <p
+        class="text-md p-2 bg-theme-purple border w-fit font-['Minecraft'] h-fit self-end"
+      >
+        This site was made with &lt;3 using human hands.
+      </p>
+      <div class="grow"></div>
+    </div>
+  </body>
+</html>

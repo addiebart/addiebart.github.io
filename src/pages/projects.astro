@@ -1,0 +1,40 @@
+---
+import "../styles/global.css"
+import Shell from "../components/Shell.astro"
+---
+
+<Shell>
+	<h1 class="mx-auto w-fit text-4xl underline -underline-offset-10 italic block decoration-4 font-['Minecraftia']">
+		Projects
+	</h1>
+
+	<article class="mt-4 text-xl flex flex-col gap-y-8">
+		<h2 class="text-3xl underline">Here's some of the stuff I've done!</h2>
+		<div class="flex flex-col gap-12">
+			<div class="flex flex-col gap-2">
+				<div class="flex items-baseline gap-4 text-3xl">
+					<h2 class="font-semibold">Git Smart:</h2>
+					<a href="/gitsmart" class="underline hover:text-theme-green">Check it out!</a>
+				</div>
+				<p>
+					A full-stack web application built to teach students how to use Git on the command line in a gamified way!
+					Conceived by two of my friends and I at Hack K-State 2025, Git Smart taught me a lot about modern web development tools
+					including React, Tailwind, and WebSockets.
+					<span class="font-semibold">Git Smart was ranked 1st over all other projects at the event.</span>
+				</p>
+				<img src="/img/gitsmart.webp" width="560" height="377" class="w-2/3 h-fit border-2 self-center">
+			</div>
+			<div class="flex flex-col gap-2">
+				<div class="flex items-baseline gap-4 text-3xl">
+					<h2 class="font-semibold">Jukeboxd:</h2>
+					<a href="/jukeboxd" class="underline hover:text-theme-green">Check it out!</a>
+				</div>
+				<p>
+					A communal bulletin board where users can post reviews of their favorite albums and view other's opinions!
+					Made for HackUTD 2025, this project taught me a lot about full-stack development and integration with databases.
+				</p>
+				<img src="/img/jukeboxd.webp" width="560" height="422" class="w-2/3 h-fit border-2 self-center">
+			</div>
+		</div>
+	</article>
+</Shell>

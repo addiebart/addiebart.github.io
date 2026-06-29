@@ -1,0 +1,150 @@
+---
+import "../styles/global.css";
+import Shell from "../components/Shell.astro";
+---
+<Shell>
+  <h1
+    class="mx-auto w-fit text-4xl underline -underline-offset-10 italic block decoration-4 font-['Minecraftia']"
+  >
+    Resume
+  </h1>
+
+  <article class="mt-4 text-xl flex flex-col gap-y-4">
+    <h2 class="text-3xl underline">I suppose we're getting down to business</h2>
+    <div class="flex gap-4">
+      <button
+        class="h-full border-2 p-2 flex items-center justify-center cursor-pointer hover:bg-theme-green"
+        onclick="location.pathname = '/nonweb/resume.pdf'"
+        >Download PDF</button
+      >
+      <button
+        class="h-full border-2 p-2 flex items-center justify-center cursor-pointer hover:bg-theme-green"
+        onclick="location.pathname = '/nonweb/resume.docx'"
+        >Download DOCX</button
+      >
+    </div>
+    <section class='flex flex-col font-["Calibri","Carlito",sans-serif] gap-4'>
+      <div class="flex gap-4 items-baseline">
+        <h3 class="font-bold text-3xl">Addison Bartelli</h3>
+        <span>addiebartelli at gmail period commercial</span>
+      </div>
+      <section class="flex flex-col relative">
+        <h4 class="font-semibold text-2xl">Education</h4>
+        <h5>
+          <span class="underline">University of Kansas</span> -- Lawrence, KS
+        </h5>
+        <p>
+          Bachelor of Science in Computer Science -- May 2026<br />
+          Undergraduate Certificate in Cybersecurity<br />
+          Notable Courses: Database Systems, Software Security, Machine Learning
+        </p>
+        <div class="text-2xl font-semibold absolute top-0 right-0">
+          GPA: 3.87
+        </div>
+      </section>
+      <section>
+        <h4 class="font-semibold text-2xl">Work Experience</h4>
+        <h5>
+          <span class="underline">H&R Block</span>
+          | <span class="italic">Software Engineering Intern</span>
+          | May 2026 - Present
+        </h5>
+        <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+          <li>Shipped an <span class="font-bold">API</span> and web interface allowing support agents to safely copy and debug small business tax returns without impacting live data, improving efficiency and reducing reliance on manual intervention.</li>
+          <li>Practiced <span class="font-bold">Agile SDLC</span> with a global team, creating tasks and reviewing code on assigned stories.</li>
+          <li>Updated and pushed the service proxy NuGet package with a new vendor API integration.</li>
+          <li>Overhauled a CI/CD pipeline in Azure DevOps to communicate QA release notes to team members.</li>
+          <li>Debugged and resolved issues across C# solutions using step-through debugging to verify values.</li>
+          <li>Built and refined a support ticket UI and fully mocked the backend for H&R Block's hackathon.</li>
+          <li>Led the intern cohort as Social Chair, coordinating carpools and connectivity for 29 interns.</li>
+        </ul>
+      </section>
+      <section>
+        <h4 class="font-semibold text-2xl">Projects</h4>
+        <div class="flex flex-col gap-2">
+          <div>
+            <div class="flex">
+              <h5>
+                <span class="italic">Git Smart</span>,
+                Hack K-State 2025
+                | October 2025
+                -- <span class="font-bold italic underline">FIRST PLACE WINNER</span>
+              </h5>
+               <a href="/gitsmart" class="underline cursor-pointer ml-auto hover:text-theme-green">addiebart.net/gitsmart</a>
+            </div>
+            <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+              <li>Developed the frontend for a gamified Git tutorial/challenge using Typescript and React.</li>
+              <li>Wrote modern CSS styles using Tailwind and bundled with other assets via Vite.</li>
+              <li>Implemented communication with backend using the WebSocket API and Regex to capture data.</li>
+            </ul>
+          </div>
+          <div>
+            <div class="flex">
+              <h5>
+                <span class="italic">Jukeboxd</span>,
+                HackUTD 2025
+                | November 2025
+              </h5>
+               <a href="/jukeboxd" class="underline cursor-pointer ml-auto hover:text-theme-green">addiebart.net/jukeboxd</a>
+            </div>
+            <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+              <li>Created a web application allowing users to rate music albums on a public board.</li>
+              <li>Implemented integrations with PostgreSQL database and optimized for mobile with responsive CSS.</li>
+              <li>Integrated with the MusicBrainz API to fetch album data while maintaining access control.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h4 class="font-semibold text-2xl">Leadership</h4>
+        <div class="flex flex-col gap-2">
+          <div>
+            <div class="flex">
+              <h5>
+                  <span class="italic">Webmaster</span>,
+                  Association for Computing Machinery at KU
+                  | May 2025 - May 2026
+              </h5>
+              <a href="https://kuacm.club" class="underline cursor-pointer ml-auto hover:text-theme-green">www.kuacm.club</a>
+            </div>
+            <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+              <li>Maintained the website of KU's ACM chapter with schedules using TypeScript and Astro.</li>
+              <li>Built an "archive" page using components to keep record of and access to previous meetings.</li>
+              <li>Crafted and presented multiple technical talks at ACM meetings and HackKU, KU's hackathon.</li>
+            </ul>
+          </div>
+          <div>
+            <h5>
+                <span class="italic">Server Administrator and Co-Founder</span>,
+                KU Minecraft Club
+                | May 2025 - May 2026
+            </h5>
+            <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+              <li>Administered a server to run Minecraft multiplayer, serve web content, and controlled access.</li>
+              <li>Employed industry tools including Nginx, Systemd, Firewalld, and TLS security implementations.</li>
+              <li>Planned events to provide positive experiences to 300+ members/users.</li>
+            </ul>
+          </div>
+          <div>
+            <h5>
+                <span class="italic">Engineering Chair</span>, 
+                Out in Science, Technology, Engineering and Math at KU 
+                | May 2025 - May 2026
+            </h5>
+            <ul class="ml-8 flex flex-col gap-1 list-disc mt-1">
+              <li>Worked with Engineering Dept. to create an event for 2000+ students at the Engineering Exposition.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h4 class="font-semibold text-2xl">Skills and Technologies</h4>
+        <p>
+          Programming Languages: TypeScript, JavaScript, Python, C, C++, C#, Java, SQL, Kotlin, Dart, HTML/CSS<br>
+          Libraries/Frameworks: React, Next.js, Angular, Tailwind, Express.js, Vite, Flutter, Numpy, Pandas, Matplotlib<br>
+          Technologies: Git, GitHub, Node.js, VSCode, JetBrains, WebSocket, Linux, CI/CD, Networks, MS Office
+        </p>
+      </section>
+    </section>
+  </article>
+</Shell>
